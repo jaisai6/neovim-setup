@@ -30,3 +30,7 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = ""
 
+-- coc.nvim
+-- Some servers have issues with backup files, see #649
+vim.opt.writebackup = false
+
